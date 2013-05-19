@@ -16,7 +16,7 @@ rmlog:
 	-rm *.log.html
 
 m1:
-	-rm m2m.log.html m2m.log.html
+	-rm m2m.log m2m.log.html
 	-rm p1 p2
 	mkfifo p1 p2
 	./demo2 man | ./log1 m2m.log > p1
